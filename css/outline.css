@@ -1,0 +1,13 @@
+/* body {
+  margin: 0;
+  padding: 0;
+
+  background-image: url("../img/barbershop-index.jpg");
+  background-size: 2560px auto;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+} */
+
+.outline {
+  outline: 1px solid rgb(214, 0, 221);
+}
