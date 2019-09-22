@@ -7,31 +7,36 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
+
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-logo">
           <img src="img/index-logo.svg" alt="Логотип барбершопа «Бородинский»" width="371" height="155">
         </a>
-        <ul class="site-navigation">
-          <li><a href="">Информация</a></li>
-          <li><a href="">Новости</a></li>
-          <li><a href="price.html">Прайс-лист</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
-        <ul class="user-navigation">
-          <li>
-            <a class="login-link" href="#">
-              Вход
-            </a>
-          </li>
-        </ul>
+        <div class="main-navigation-wrapper">
+          <div class="container">
+            <ul class="site-navigation">
+              <li><a href="">Информация</a></li>
+              <li><a href="">Новости</a></li>
+              <li><a href="price.html">Прайс-лист</a></li>
+              <li><a href="catalog.html">Магазин</a></li>
+              <li><a href="">Контакты</a></li>
+            </ul>
+            <ul class="user-navigation">
+              <li>
+                <a class="login-link" href="#">
+                  Вход
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
     <main class="container">
       <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
-      <section>
+      <section class="features">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="features-list">
           <li class="feature-item">
@@ -119,21 +124,23 @@
     </main>
 
     <footer class="main-footer">
-      <p class="footer-contacts">
-        Барбершоп «Бородинский»<br>
-        Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8<br>
-        <a href="">Как нас найти?</a><br>
-        Телефон: +7 (495) 666-02-66
-      </p>
-      <div class="footer-social">
-        <b>Давайте дружить!</b>
-        <ul>
-          <li><a class="social-button" href="#">Барбершоп во Вконтакте</a></li>
-          <li><a class="social-button" href="#">Барбершоп в Фейсбук</a></li>
-          <li><a class="social-button" href="#">Барбершоп в Инстаграмм</a></li>
-        </ul>
+      <div class="container">
+        <p class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8<br>
+          <a href="">Как нас найти?</a><br>
+          Телефон: +7 (495) 666-02-66
+        </p>
+        <div class="footer-social">
+          <b>Давайте дружить!</b>
+          <ul>
+            <li><a class="social-button" href="#">Барбершоп во Вконтакте</a></li>
+            <li><a class="social-button" href="#">Барбершоп в Фейсбук</a></li>
+            <li><a class="social-button" href="#">Барбершоп в Инстаграмм</a></li>
+          </ul>
+        </div>
+        <p class="footer-copyright">Разработано <a class="button" href="http://htmlacademy.ru">HTML Academy</a></p>
       </div>
-      <p class="footer-copyright">Разработано <a class="button" href="http://htmlacademy.ru">HTML Academy</a></p>
     </footer>
 
     <section class="modal modal-login">
