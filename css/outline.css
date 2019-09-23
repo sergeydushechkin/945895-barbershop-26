@@ -8,7 +8,7 @@ body {
 }
 
 .inner-page {
-  background-image: url("../previews/barbershop-shop.jpg");
+  background-image: url("../previews/barbershop-item.jpg");
   background-size: 1200px auto;
   background-repeat: no-repeat;
   background-position-x: 50%;
@@ -30,7 +30,7 @@ body {
 
   /* Временно для сетки */
   min-height: 285px;
-  background-color: #1eff002c;
+  outline: 2px solid rgb(214, 0, 221);
 }
 
 .inner-page .main-header {
@@ -53,6 +53,7 @@ body {
 
   /* Временно для сетки */
   min-height: 285px;
+  background-color: rgba(255, 251, 0, 0.295);
 }
 
 .inner-page .main-navigation {
@@ -61,7 +62,7 @@ body {
 
   /* Временно для сетки */
   min-height: 70px;
-  outline: 2px solid rgb(0, 188, 221);
+  background-color: rgba(255, 251, 0, 0.295);
 }
 
 .main-logo {
@@ -69,6 +70,7 @@ body {
 
   width: 368px;
   height: 153px;
+  outline: 2px solid rgb(221, 0, 0);
 }
 
 .inner-page .main-logo {
@@ -77,6 +79,7 @@ body {
   height: 24px;
   padding: 23px 20px;
 
+  /* Временно для сетки */
   outline: 2px solid rgb(221, 0, 0);
 }
 
@@ -193,7 +196,7 @@ body {
 
   /* Временно для сетки */
   min-height: 42px;
-  outline: 2px solid blueviolet;
+  background-color: rgba(255, 0, 0, 0.295);
 }
 
 .breadcrumbs {
@@ -203,7 +206,7 @@ body {
 
   /* Временно для сетки */
   min-height: 24px;
-  outline: 2px solid red;
+  background-color: rgba(21, 255, 0, 0.295);
 }
 
 .catalog-columns {
@@ -266,18 +269,35 @@ body {
   outline: 2px dashed rgb(0, 255, 21);
 }
 
+.product-photos {
+  width: 460px;
+
+  /* Временно для сетки */
+  min-height: 677px;
+  background-color: rgba(0, 255, 0, 0.308);
+}
+
+.product-info {
+  width: 390px;
+
+  /* Временно для сетки */
+  min-height: 667px;
+  background-color: rgba(0, 4, 255, 0.308);
+}
+
 .main-footer {
   padding: 60px 0;
   margin-top: 65px;
 
   /* Временно для сетки */
   background: none;
+  outline: 2px dashed rgb(255, 0, 234);
 }
 
 .inner-page .main-footer {
   margin-top: 45px;
 
-  background-color: rgba(0, 0, 255, 0.281)
+  background-color: rgba(0, 0, 255, 0.281);
 }
 
 .main-footer .container {
