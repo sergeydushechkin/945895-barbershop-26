@@ -65,7 +65,7 @@ body {
   background-color: rgba(255, 251, 0, 0.295);
 }
 
-.main-logo {
+.main-header-logo {
   order: 2;
 
   width: 368px;
@@ -73,7 +73,7 @@ body {
   outline: 2px solid rgb(221, 0, 0);
 }
 
-.inner-page .main-logo {
+.inner-page .main-header-logo {
   order: 0;
   width: 111px;
   height: 24px;
